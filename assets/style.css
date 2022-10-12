@@ -72,6 +72,6 @@ main {
     padding: 10px;
     border-radius: 50%;
     border: 1px solid #ffffff;
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 5px #ffffff;
     cursor: pointer;
 }
