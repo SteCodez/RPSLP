@@ -29,3 +29,10 @@ main {
     font-size: 3em;
     margin-bottom: 10px;
 }
+
+.players {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px 25px;
+}
