@@ -44,3 +44,14 @@ main {
     flex: 1 100%;
     padding: 15px 0;
 }
+
+.selected-option,
+.name {
+    justify-content: center;
+}
+
+.name {
+    font-size: 1.8em;
+    color: #000000;
+    font-weight: 600;
+}
