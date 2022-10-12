@@ -36,3 +36,11 @@ main {
     flex: 1;
     padding: 10px 25px;
 }
+
+.selected-option,
+.name,
+.available-options {
+    display: inline-flex;
+    flex: 1 100%;
+    padding: 15px 0;
+}
