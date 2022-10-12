@@ -85,3 +85,13 @@ main {
 .option:hover>img {
     transform: scale(1.1);
 }
+
+.selected-option>.option {
+    width: 110px;
+    height: 110px;
+}
+
+#player2 .option {
+    cursor: not-allowed;
+    background-color: #80cbc4;
+}
