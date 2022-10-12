@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 main {
@@ -52,10 +54,24 @@ main {
 
 .name {
     font-size: 1.8em;
-    color: #000000;
+    color: #ffffff;
     font-weight: 600;
 }
 
 .available-options {
     justify-content: space-between;
+    border: 1px solid #ffffff;
+}
+
+.option {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 3px;
+    cursor: pointer;
 }
