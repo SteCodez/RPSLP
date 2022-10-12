@@ -55,3 +55,7 @@ main {
     color: #000000;
     font-weight: 600;
 }
+
+.available-options {
+    justify-content: space-between;
+}
