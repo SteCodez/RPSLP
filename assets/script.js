@@ -30,3 +30,5 @@ const botShowArea = document.querySelector(
 
 const player1Score = document.querySelector("#player1-score");
 const player2Score = document.querySelector("#player2-score");
+
+const roundMessage = document.querySelector("#round-message");
