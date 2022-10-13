@@ -38,3 +38,10 @@ player1Options.forEach((e) => {
         play(e);
     });
 });
+
+const play = (e) => {
+    const player1 = e.getAttribute("data-index");
+
+    const length = arr.length;
+
+    const player2 = Math.floor(Math.random() * length);
