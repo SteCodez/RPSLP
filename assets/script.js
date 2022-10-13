@@ -65,3 +65,9 @@ const generateImgElement = (index) => {
     imgElement.title = name;
     return imgElement;
 };
+
+const showPlayerOption = (index, showArea) => {
+    const imgElement = generateImgElement(index);
+    showArea.innerHTML = "";
+    showArea.append(imgElement);
+};
