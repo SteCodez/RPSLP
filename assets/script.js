@@ -1,3 +1,26 @@
+const arr = [
+    {
+        image: "lizard_image2.png",
+        name: "Lizard",
+    },
+    {
+        image: "paper_image2.png",
+        name: "Paper",
+    },
+    {
+        image: "rock_image2.png",
+        name: "Rock",
+    },
+    {
+        image: "scissors_image2.png",
+        name: "Scissor",
+    },
+    {
+        image: "spock_image2.png",
+        name: "Spock",
+    },
+];
+
 
 const rule = {
     Lizard: ["Spock", "Paper"],
@@ -15,7 +38,7 @@ const rule = {
 const imageFolderPath = "assets"
 
 const player1Options = document.querySelectorAll(
-    "player1 . available-options . option"
+    "player1 . available-options .option"
 );
 
 const botOptions = document.querySelectorAll(
