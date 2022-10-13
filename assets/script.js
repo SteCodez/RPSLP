@@ -51,3 +51,6 @@ const play = (e) => {
 
     showPlayerOption(player2, botShowArea);
     highlightSelectedOption(player2, botOptions);
+
+    calculateScore(player1, player2);
+};
