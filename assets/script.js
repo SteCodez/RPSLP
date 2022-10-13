@@ -27,3 +27,6 @@ const playerShowArea = document.querySelector(
 const botShowArea = document.querySelector(
     "#player2 .selected-option .option"
 );
+
+const player1Score = document.querySelector("#player1-score");
+const player2Score = document.querySelector("#player2-score");
