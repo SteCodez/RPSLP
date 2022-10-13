@@ -48,3 +48,6 @@ const play = (e) => {
 
     showPlayerOption(player1, playerShowArea);
     highlightSelectedOption(player1, player1Options);
+
+    showPlayerOption(player2, botShowArea);
+    highlightSelectedOption(player2, botOptions);
