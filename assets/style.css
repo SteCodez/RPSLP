@@ -4,6 +4,12 @@
     color: #ffffff;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
 main {
     display: flex;
     justify-content: center;
