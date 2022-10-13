@@ -32,3 +32,9 @@ const player1Score = document.querySelector("#player1-score");
 const player2Score = document.querySelector("#player2-score");
 
 const roundMessage = document.querySelector("#round-message");
+
+player1Options.forEach((e) => {
+    e.addEventListener("click", () => {
+        play(e);
+    });
+});
