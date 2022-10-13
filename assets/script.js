@@ -21,7 +21,6 @@ const arr = [
     },
 ];
 
-
 const rule = {
     Lizard: ["Spock", "Paper"],
 
@@ -101,4 +100,9 @@ const highlightSelectedOption = (index, options) => {
     });
 
     options[index].classList.add("active");
+};
+
+const addScore = (player) => {
+    const { innerHTML } = player;
+    player.innerHTML = Number(innerHTML) + 1;
 };
