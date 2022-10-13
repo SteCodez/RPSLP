@@ -95,3 +95,10 @@ main {
     cursor: not-allowed;
     background-color: #80cbc4;
 }
+
+.reset {
+    display: inline-flex;
+    flex: 1 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
