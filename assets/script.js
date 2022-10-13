@@ -12,6 +12,8 @@ const rule = {
 
 }
 
+const imageFolderPath = "assets/images"
+
 const player1Options = document.querySelectorAll(
     "player1 . available-options . option"
 );
