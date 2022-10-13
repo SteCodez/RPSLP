@@ -71,3 +71,11 @@ const showPlayerOption = (index, showArea) => {
     showArea.innerHTML = "";
     showArea.append(imgElement);
 };
+
+const highlightSelectedOption = (index, options) => {
+    options.forEach((e) => {
+        e.classList.remove("active");
+    });
+
+    options[index].classList.add("active");
+};
