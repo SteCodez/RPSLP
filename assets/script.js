@@ -23,3 +23,7 @@ const botOptions = document.querySelectorAll(
 const playerShowArea = document.querySelector(
     "#player1 .selected-option .option"
 );
+
+const botShowArea = document.querySelector(
+    "#player2 .selected-option .option"
+);
