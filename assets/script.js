@@ -45,3 +45,6 @@ const play = (e) => {
     const length = arr.length;
 
     const player2 = Math.floor(Math.random() * length);
+
+    showPlayerOption(player1, playerShowArea);
+    highlightSelectedOption(player1, player1Options);
