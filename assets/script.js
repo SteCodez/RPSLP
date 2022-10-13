@@ -56,3 +56,12 @@ const play = (e) => {
 
     calculateScore(player1, player2);
 };
+
+const generateImgElement = (index) => {
+    const { image, name } = arr[index];
+    const imgElement = document.createElement("img");
+    imgElement.src = `${imageFolderPath}/${image}`;
+    imgElement.alt = name;
+    imgElement.title = name;
+    return imgElement;
+};
