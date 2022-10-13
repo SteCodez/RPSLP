@@ -106,3 +106,8 @@ const addScore = (player) => {
     const { innerHTML } = player;
     player.innerHTML = Number(innerHTML) + 1;
 };
+
+const showMessage = (msg) => {
+    roundMessage.innerHTML = "";
+    roundMessage.innerHTML = msg;
+};
